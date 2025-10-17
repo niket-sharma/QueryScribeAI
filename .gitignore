@@ -305,6 +305,9 @@ docker-compose.override.yml
 .vscode/tasks.json
 .vscode/.ropeproject
 
+# Claude Code files
+.claude/
+
 # Backup files
 *.backup
 *.bak

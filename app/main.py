@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from .models import QueryRequest, QueryResponse, ErrorResponse
+from .models import QueryRequest, QueryResponse, ErrorResponse, ValidationStatus
 from ..agents.analyzer_agent import get_analyzer_chain
 from ..agents.generator_agent import get_generator_chain
 from ..agents.explainer_agent import get_explainer_chain
