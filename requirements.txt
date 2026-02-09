@@ -14,6 +14,11 @@ langchain-google-genai>=1.0.0
 langchain-openai>=0.1.0
 langchain-anthropic>=0.1.0
 
+# RAG and Embeddings
+langchain-community>=0.1.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
 # Database dependencies
 sqlalchemy>=2.0.0
 psycopg2-binary>=2.9.0  # For PostgreSQL support
